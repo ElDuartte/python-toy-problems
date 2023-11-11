@@ -4,9 +4,9 @@ import sys
 userNumber = int(sys.argv[1])
 
 def fizzbuzz(userNumber):
-  print("Your number is:", userNumber)
-  
-  for i in range(userNumber):
+    print("Your number is:", userNumber)
+
+    for i in range(userNumber):
         i += 1
         # if the division residue is 0
         if i % 3 == 0 and i % 5 == 0:
